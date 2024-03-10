@@ -12,7 +12,7 @@ def fetch_data(city):
     response = requests.get(complete_url)
     return response.json()
 
-#The following function will take the JSON response from fetch_weather_data() as input, 
+#The following function will take the JSON response from fetch_data() as input, 
 #extract the relevant information, and display it in a user-friendly format.
 
 def display_data(weather_data):
