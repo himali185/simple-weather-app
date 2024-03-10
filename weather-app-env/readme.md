@@ -1,4 +1,5 @@
 This is a very simple weather app to check the humidity, temperature and weather condition description.
+The weather data is fetched from OpenWeatherMap.org
 By providing accurate and up-to-date weather forecasts, a weather app helps people plan their activities accordingly. This is particularly important for outdoor activities, agriculture, transportation, and event planning. Knowing if it will rain, snow, or be sunny can greatly impact people's daily lives and decisions.
 Weather conditions can affect people's health, especially those with certain medical conditions like asthma or allergies. Weather apps can provide information on air quality, pollen levels, UV index, and other factors that may impact health, helping individuals take necessary precautions.
 Weather apps can also educate users about climate change and its impact on weather patterns. By providing information on temperature trends, precipitation levels, and other climate indicators, weather apps can raise awareness about environmental issues and encourage sustainable behaviors.
