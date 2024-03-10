@@ -3,13 +3,13 @@ import json
  
 API_KEY = '138e1c5d420361efd0af4a9790351ee5'
 
-def fetch_weather_data(city):
+def fetch_data(city):
     base_url = 'http://api.openweathermap.org/data/2.5/weather?'
     complete_url = f"{base_url}appid={API_KEY}&q={city}"
     response = requests.get(complete_url)
     return response.json()
 
-def display_weather_data(weather_data):
+def display_data(weather_data):
     if weather_data['cod'] != '404':
         main_data = weather_data['main']
         # Convert from Kelvin to Celsius
@@ -26,8 +26,8 @@ def display_weather_data(weather_data):
 
 def main():
     city = input("Enter the name of the city: ")
-    weather_data = fetch_weather_data(city)
-    display_weather_data(weather_data)
+    weather_data = fetch_data(city)
+    display_data(weather_data)
  
 if __name__ == "__main__":
     main()
